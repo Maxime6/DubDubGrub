@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C52992A2DAEB01100284623 /* LocationDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5299292DAEB01100284623 /* LocationDetailViewModel.swift */; };
 		9C5325072C45831C001B69CC /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5325062C45831C001B69CC /* LoadingView.swift */; };
 		9C69D3FF2C0F425400D44130 /* CKAsset+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C69D3FE2C0F425400D44130 /* CKAsset+Ext.swift */; };
 		9C69D4012C0F57BA00D44130 /* OnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C69D4002C0F57BA00D44130 /* OnboardView.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C5299292DAEB01100284623 /* LocationDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailViewModel.swift; sourceTree = "<group>"; };
 		9C5325062C45831C001B69CC /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		9C69D3FE2C0F425400D44130 /* CKAsset+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CKAsset+Ext.swift"; sourceTree = "<group>"; };
 		9C69D4002C0F57BA00D44130 /* OnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardView.swift; sourceTree = "<group>"; };
@@ -87,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C5299282DAEAFF600284623 /* LocationDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				9C6EED512C07530500790C59 /* LocationDetailView.swift */,
+				9C5299292DAEB01100284623 /* LocationDetailViewModel.swift */,
+			);
+			path = LocationDetailView;
+			sourceTree = "<group>";
+		};
 		9C69D4042C0F5C2000D44130 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,11 +188,11 @@
 		9C6EED5F2C076D9400790C59 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				9C5299282DAEAFF600284623 /* LocationDetailView */,
 				9C81D7602C218D0E007A65F8 /* ProfileView */,
 				9CD699922C0E0FDD00C11752 /* LocationMapView */,
 				9C6EED492C073F5400790C59 /* AppTabView.swift */,
 				9C6EED4D2C073FCA00790C59 /* LocationListView.swift */,
-				9C6EED512C07530500790C59 /* LocationDetailView.swift */,
 				9C69D4002C0F57BA00D44130 /* OnboardView.swift */,
 			);
 			path = Screens;
@@ -312,6 +323,7 @@
 				9CD6998D2C0E047700C11752 /* Constants.swift in Sources */,
 				9C6EED582C076B0900790C59 /* CustomModifiers.swift in Sources */,
 				9C6EED4C2C073F9E00790C59 /* LocationMapView.swift in Sources */,
+				9C52992A2DAEB01100284623 /* LocationDetailViewModel.swift in Sources */,
 				9CD699942C0E0FF300C11752 /* LocationMapViewModel.swift in Sources */,
 				9C6EED4E2C073FCA00790C59 /* LocationListView.swift in Sources */,
 				9C81D7622C218D21007A65F8 /* ProfileViewModel.swift in Sources */,
