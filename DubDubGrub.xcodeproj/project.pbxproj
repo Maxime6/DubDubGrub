@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9C52992A2DAEB01100284623 /* LocationDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5299292DAEB01100284623 /* LocationDetailViewModel.swift */; };
+		9C5299992DB00E3E00284623 /* ProfileModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5299982DB00E3E00284623 /* ProfileModalView.swift */; };
 		9C5325072C45831C001B69CC /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5325062C45831C001B69CC /* LoadingView.swift */; };
 		9C69D3FF2C0F425400D44130 /* CKAsset+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C69D3FE2C0F425400D44130 /* CKAsset+Ext.swift */; };
 		9C69D4012C0F57BA00D44130 /* OnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C69D4002C0F57BA00D44130 /* OnboardView.swift */; };
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		9C5299292DAEB01100284623 /* LocationDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailViewModel.swift; sourceTree = "<group>"; };
+		9C5299982DB00E3E00284623 /* ProfileModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModalView.swift; sourceTree = "<group>"; };
 		9C5325062C45831C001B69CC /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		9C69D3FE2C0F425400D44130 /* CKAsset+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CKAsset+Ext.swift"; sourceTree = "<group>"; };
 		9C69D4002C0F57BA00D44130 /* OnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardView.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			children = (
 				9C6EED512C07530500790C59 /* LocationDetailView.swift */,
 				9C5299292DAEB01100284623 /* LocationDetailViewModel.swift */,
+				9C5299982DB00E3E00284623 /* ProfileModalView.swift */,
 			);
 			path = LocationDetailView;
 			sourceTree = "<group>";
@@ -340,6 +343,7 @@
 				9CD699912C0E0C7800C11752 /* AlertItem.swift in Sources */,
 				9C6EED5A2C076B3300790C59 /* View+Ext.swift in Sources */,
 				9C6EED542C0768B800790C59 /* LocationCell.swift in Sources */,
+				9C5299992DB00E3E00284623 /* ProfileModalView.swift in Sources */,
 				9CD6998F2C0E0B8800C11752 /* CKRecord+Ext.swift in Sources */,
 				9CD699962C0E12E100C11752 /* LocationManager.swift in Sources */,
 				9C69D3FF2C0F425400D44130 /* CKAsset+Ext.swift in Sources */,
